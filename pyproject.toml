@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "curl-compare-loadtest"
-version = "0.3.0"
+version = "0.0.3"
 description = "curl load test and response comparison dashboard"
 readme = "README.md"
 requires-python = ">=3.9"
