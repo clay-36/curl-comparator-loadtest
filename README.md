@@ -1,5 +1,9 @@
 # Curl Compare Load Test
 
+[![PyPI version](https://img.shields.io/pypi/v/curl-compare-loadtest.svg)](https://pypi.org/project/curl-compare-loadtest/)
+[![Python versions](https://img.shields.io/pypi/pyversions/curl-compare-loadtest.svg)](https://pypi.org/project/curl-compare-loadtest/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A lightweight Flask-based load testing dashboard that executes real `curl` commands against two target hosts and compares response behavior under concurrent traffic.
 
 It is useful for migration validation, canary checks, regression detection, and performance baselining between API environments.
