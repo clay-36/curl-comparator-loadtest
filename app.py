@@ -537,7 +537,7 @@ HTML = """
 <body>
   <div class="wrap">
     <div class="card">
-      <h1>API DIFF with load test</h1>
+      <h1>Curl response compare dashboard</h1>
       <div class="grid">
         <div class="full">
           <label for="curlTemplate">Curl Template (must contain {host}; supports {name}, {age}, ... anywhere)</label>

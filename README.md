@@ -1,10 +1,10 @@
-# Curl Comparator Load Test
+# Curl Compare Load Test
 
 A lightweight Flask-based load testing dashboard that executes real `curl` commands against two target hosts and compares response behavior under concurrent traffic.
 
 It is useful for migration validation, canary checks, regression detection, and performance baselining between API environments.
 
-![Curl Comparator UI](image.png)
+![Curl Compare UI](image.png)
 
 ## What It Does
 
@@ -143,7 +143,7 @@ Artifacts are created in `dist/` (wheel and source distribution).
 
 ## Project Metadata
 
-- Package: `curl-comparator-loadtest`
+- Package: `curl-compare-loadtest`
 - Entry point: `curl-compare-loadtest` -> `app:main`
 - License: MIT
 

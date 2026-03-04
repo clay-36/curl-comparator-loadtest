@@ -3,8 +3,8 @@ requires = ["setuptools>=69.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "curl-comparator-loadtest"
-version = "0.2.0"
+name = "curl-compare-loadtest"
+version = "0.3.0"
 description = "curl load test and response comparison dashboard"
 readme = "README.md"
 requires-python = ">=3.9"
