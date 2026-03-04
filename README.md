@@ -27,28 +27,18 @@ It is useful for migration validation, canary checks, regression detection, and 
 Install as a package:
 
 ```bash
-pip install .
+pip install curl-compare-loadtest
 ```
 
-Or install dependencies only:
 
-```bash
-pip install -r requirements.txt
-```
 
 ## Running the Application
 
-Development:
 
 ```bash
 curl-compare-loadtest
 ```
 
-Production example with Gunicorn:
-
-```bash
-gunicorn -w 4 -k gthread -b 0.0.0.0:8000 app:app
-```
 
 Open `http://localhost:8000`.
 

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "curl-compare-loadtest"
-version = "0.0.4"
+version = "0.0.5"
 description = "curl load test and response comparison dashboard"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -34,6 +34,11 @@ dev = ["build>=1.2.2", "twine>=5.1.0"]
 
 [project.scripts]
 curl-compare-loadtest = "app:main"
+
+[project.urls]
+Homepage = "https://github.com/clay-36/curl-compare-loadtest"
+Repository = "https://github.com/clay-36/curl-compare-loadtest"
+Issues = "https://github.com/clay-36/curl-compare-loadtest/issues"
 
 [tool.setuptools]
 py-modules = ["app"]
